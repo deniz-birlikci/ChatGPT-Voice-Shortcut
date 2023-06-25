@@ -21,4 +21,6 @@ Before using the shortcut, here are the list of things to complete.
 
 Just press on the "Elite Siri" widget. This will start a new conversation, where you can speak your prompt, and ChatGPT's answer will both be represented as text and also spoken back. 
 
-The widget supports continuous conversations, so after it finishes reading ChatGPT's response, it will wait for another user input. To stop the application, just say "Stop". 
+The widget supports continuous conversations, so after it finishes reading ChatGPT's response, it will wait for another user input. 
+
+To stop the application, just say "Stop". 
