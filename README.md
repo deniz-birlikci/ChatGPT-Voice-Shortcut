@@ -24,3 +24,24 @@ Just press on the "Elite Siri" widget. This will start a new conversation, where
 The widget supports continuous conversations, so after it finishes reading ChatGPT's response, it will wait for another user input. 
 
 To stop the application, just say "Stop". 
+
+## Application Logic
+```
+# Get voice input from the user
+prompt = DictatedText() 
+
+# Termination Condition
+if prompt begins with "Stop":
+    stop this shortcut
+else:
+    # Use ChatGPT app to get response
+    response = AskChatGPT(prompt)
+    
+    # Return response to user
+    speak(response)
+    show(response)
+    
+    # Recursively run itself again 
+    # for continuous conversations
+    run shortcut
+```
